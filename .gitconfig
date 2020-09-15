@@ -3,9 +3,13 @@
 [user]
 	name = Juan F Gonzalez
 	email = jf.gonzalez@globant.com
+	signingkey = 75723A186F03DFF3
 [alias]
 	s = status
   lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --branches
   co = checkout
   pl = pull
   c = commit
+  f = fetch
+  b = branch
+  res = reset --soft "HEAD~1" 

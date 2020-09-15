@@ -1,0 +1,6 @@
+[wsl2]
+memory=6GB # Limits VM memory in WSL 2 to 6 GB
+# This line disables the use of a swap file
+swap=0
+# All the possible config
+# https://docs.microsfot.com/en-us/winwods/wsl/wsl-config

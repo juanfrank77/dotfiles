@@ -121,3 +121,8 @@ alias drop_cache="sudo sh -c \'echo 3 >'/proc/sys/vm/drop_caches' && swapoff -a 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+#[ -f ~/.fzf.bash ] && source ~/.fzf.bash 
+
+export DISPLAY="`grep nameserver /etc/resolv.conf | sed 's/nameserver //'`:0"
+export GPG_TTY=$(tty)

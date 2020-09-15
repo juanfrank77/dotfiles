@@ -37,8 +37,14 @@ Plug 'tmux-plugins/vim-tmux'
 " Collection of language packs
 Plug 'sheerun/vim-polyglot'
 
+" Autocomplete engine
+Plug 'codota/tabnine-vim'
+
 " Query Hoogle from Vim
 Plug 'Twinside/vim-hoogle', { 'for': 'haskell' }
+
+" Syntax highlighting for Markdown 
+Plug 'godlygeek/tabular' | Plug 'plasticboy/vim-markdown'
 
 " Initialize plugin system
 call plug#end()
@@ -58,7 +64,7 @@ endif
 syntax on
 
 " Setting the color scheme
-" colorscheme one
+ colorscheme one
  set background=dark
 " set background HAS to be called after the colorscheme for it to work
 
