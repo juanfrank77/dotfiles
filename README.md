@@ -11,5 +11,5 @@ Also, there are some things that changed with WSL2 that created incompatibilitie
 intend to keep this repo updated as much as possible so I can pretty much reconfigure in just a moment any new WSL
 distro or even an actual Linux installation in another pc if needs be.
 
-I wrote about the whole experience configuring the setup [here](https://github.co://dev.to/juanfrank77/setting-up-a-new-linux-distro-within-windows-emn) 
+I wrote about the whole experience configuring the setup [here](https://dev.to/juanfrank77/setting-up-a-new-linux-distro-within-windows-emn) 
 
